@@ -1,5 +1,6 @@
 ﻿using System.Buffers;
 using System.Security.Claims;
+using System.Text.Json;
 
 namespace Chaldea.Fate.RhoAias;
 
@@ -64,5 +65,10 @@ public static class Extensions
         {
             ArrayPool<byte>.Shared.Return(buffer);
         }
+    }
+
+    public static string ToJson(this object obj)
+    {
+        return JsonSerializer.Serialize(obj);
     }
 }

@@ -12,6 +12,12 @@ namespace Chaldea.Fate.RhoAias.Repository.Sqlite
             _contextFactory = contextFactory;
         }
 
+        public async Task<bool> AnyAsync()
+        {
+            await using var context = _contextFactory.CreateDbContext();
+            return await context.Set<TEntity>().AnyAsync();
+        }
+
         public async Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)
         {
             await using var context = _contextFactory.CreateDbContext();

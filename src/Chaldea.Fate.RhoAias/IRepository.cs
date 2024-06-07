@@ -4,6 +4,7 @@ namespace Chaldea.Fate.RhoAias;
 
 public interface IRepository<TEntity> where TEntity : class
 {
+    Task<bool> AnyAsync();
     Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate);
     Task<int> CountAsync();
     Task<TEntity> InsertAsync(TEntity entity);
@@ -20,6 +21,12 @@ public interface IRepository<TEntity> where TEntity : class
 internal class InMemoryRepository<TEntity> : IRepository<TEntity> where TEntity : class
 {
     private readonly List<TEntity> _db = new List<TEntity>();
+
+    public Task<bool> AnyAsync()
+    {
+        var result = _db.Any();
+        return Task.FromResult(result);
+    }
 
     public Task<bool> AnyAsync(Expression<Func<TEntity, bool>> predicate)
     {

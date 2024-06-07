@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{14DFA2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaldea.Fate.RhoAias.Compression.Snappy", "src\Chaldea.Fate.RhoAias.Compression.Snappy\Chaldea.Fate.RhoAias.Compression.Snappy.csproj", "{006817C8-25B0-48B2-931C-52FC2744F80A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaldea.Fate.RhoAias.Security.WAF", "src\Chaldea.Fate.RhoAias.Security.WAF\Chaldea.Fate.RhoAias.Security.WAF.csproj", "{D5524035-543A-42E2-9647-5FDC1CE70793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{006817C8-25B0-48B2-931C-52FC2744F80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{006817C8-25B0-48B2-931C-52FC2744F80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{006817C8-25B0-48B2-931C-52FC2744F80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5524035-543A-42E2-9647-5FDC1CE70793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5524035-543A-42E2-9647-5FDC1CE70793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5524035-543A-42E2-9647-5FDC1CE70793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5524035-543A-42E2-9647-5FDC1CE70793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{D8FE08E6-3E3A-41C7-8D73-9D3BE14932AF} = {0CB9EEC9-9F2A-41B3-ADA4-D5177D80822E}
 		{68BE5BA5-31B9-4ED6-8B1C-7F818AAA9CBE} = {0CB9EEC9-9F2A-41B3-ADA4-D5177D80822E}
 		{006817C8-25B0-48B2-931C-52FC2744F80A} = {0CB9EEC9-9F2A-41B3-ADA4-D5177D80822E}
+		{D5524035-543A-42E2-9647-5FDC1CE70793} = {0CB9EEC9-9F2A-41B3-ADA4-D5177D80822E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {828DE202-19FE-4CAD-9E30-54D55E5A87DA}
