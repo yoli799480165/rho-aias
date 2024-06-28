@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DnsServerHost", "DnsServerHost.csproj", "{F811E877-E6B7-4AB8-B825-23D4042ECC6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaldea.Fate.RhoAias.Dns.Server", "..\..\src\Chaldea.Fate.RhoAias.Dns.Server\Chaldea.Fate.RhoAias.Dns.Server.csproj", "{492FEE90-1EC5-4629-8B61-FE87B71D1891}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chaldea.Fate.RhoAias", "..\..\src\Chaldea.Fate.RhoAias\Chaldea.Fate.RhoAias.csproj", "{B48E9936-FE20-43C0-B141-43895FB4E473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F811E877-E6B7-4AB8-B825-23D4042ECC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F811E877-E6B7-4AB8-B825-23D4042ECC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F811E877-E6B7-4AB8-B825-23D4042ECC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F811E877-E6B7-4AB8-B825-23D4042ECC6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492FEE90-1EC5-4629-8B61-FE87B71D1891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492FEE90-1EC5-4629-8B61-FE87B71D1891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492FEE90-1EC5-4629-8B61-FE87B71D1891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492FEE90-1EC5-4629-8B61-FE87B71D1891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48E9936-FE20-43C0-B141-43895FB4E473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48E9936-FE20-43C0-B141-43895FB4E473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48E9936-FE20-43C0-B141-43895FB4E473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48E9936-FE20-43C0-B141-43895FB4E473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {741DB23F-22D6-4CBD-8163-5A6D890C521D}
+	EndGlobalSection
+EndGlobal
