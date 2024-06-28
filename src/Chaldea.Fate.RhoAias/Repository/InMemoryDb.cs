@@ -4,11 +4,13 @@ namespace Chaldea.Fate.RhoAias;
 
 internal class InMemoryDbContext : DbContext
 {
-    public DbSet<Client> Clients { get; set; }
-    public DbSet<Proxy> Proxies { get; set; }
-    public DbSet<Cert> Certs { get; set; }
-    public DbSet<User> Users { get; set; }
-    public DbSet<DnsProvider> DnsProviders { get; set; }
+    public DbSet<Client> Clients { get; set; } = default!;
+    public DbSet<Proxy> Proxies { get; set; } = default!;
+    public DbSet<Cert> Certs { get; set; } = default!;
+    public DbSet<User> Users { get; set; } = default!;
+    public DbSet<DnsProvider> DnsProviders { get; set; } = default!;
+    public DbSet<DnsRootServer> DnsRootsServers { get; set; } = default!;
+    public DbSet<DnsZone> DnsZones { get; set; } = default!;
 }
 
 internal class DbContext

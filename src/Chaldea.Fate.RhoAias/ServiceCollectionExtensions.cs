@@ -33,6 +33,8 @@ public static class ServiceCollectionExtensions
         services.AddSingleton<ICertManager, CertManager>();
         services.AddSingleton<IUserManager, UserManager>();
         services.AddSingleton<IDnsProviderManager, DnsProviderManager>();
+        services.AddSingleton<IDnsRootServerManager, DnsRootServerManager>();
+        services.AddSingleton<IDnsZoneManager, DnsZoneManager>();
         services.AddSingleton<IMetrics, Metrics>();
         services.AddSingleton<IServerCertificateSelector, DefaultServerCertificateSelector>();
         services.AddSingleton<ICompressor, GZipCompressor>();
